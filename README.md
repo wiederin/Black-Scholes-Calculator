@@ -10,7 +10,21 @@ options before the expiration date.
 
 ## Model in Mathematical Notation
 
+<img src="https://latex.codecogs.com/svg.image?\bg{black}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})>
+
 ```
-C = SN (d1) - Ke^(-rt)N(d2)
+
+
+C = call option price
+
+S = current stock (or other underlying) price
+
+K = strike price
+
+r = risk-free interest rate
+
+t = time to maturity
+
+N = A normal distribution
 
 ```
