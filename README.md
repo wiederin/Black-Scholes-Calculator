@@ -16,7 +16,7 @@ options before the expiration date.
 
 where:
 
-<img src="https://latex.codecogs.com/svg.image?d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
+<img src="https://latex.codecogs.com/svg.image?\bg{white}d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
 
 <img src="https://latex.codecogs.com/svg.image?\bg{white}d_{2}&space;=&space;d_{1}&space;-&space;\sigma&space;_{s}\sqrt{t}&space;&space;&space;">
 
@@ -40,5 +40,31 @@ N = A normal distribution
 
 ## How it works
 
+### Assumptions
 
+* no dividends are paid out during the life of the option
+
+* markets are random (market movements cannot be predicted)
+
+* there are no transaction costs in buying the option
+
+* the risk-free rate and volatility of the underlying asset are known and constant
+
+* the returns on the underlying asset are log-normally distributed
+
+* the option is european and can only be exercised at expiration
+
+
+The original Black-Scholes model does not consider the effects of dividends paid during the life of the option, the
+model is often adapted to account for dividends by determining the ex-dividend date value of the underlying stock. The
+model is also often adapted by option-selling market makers to account for the effect of options that can be exercised
+before expiration. For US-style options binomial, trinomial, or the Bjerksund-Stensland models are used.
+
+### Volatility Skew
+
+### Drawbacks & Limitations
+
+# Sources
+
+* https://www.investopedia.com/terms/b/blackscholes.asp
 
