@@ -10,7 +10,10 @@ options before the expiration date.
 
 ## Model in Mathematical Notation
 
+### Equation:
+
 <img src="https://latex.codecogs.com/svg.image?\bg{black}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})>
+
 
 ```
 
