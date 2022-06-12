@@ -1,5 +1,10 @@
 # Black-Scholes Calculator
 
+## Calculator
+
+
+
+
 ## Black-Scholes Model
 
 The Black-Scholes Model is a mathematical equation that estimates the theoretical value of derivatives based on other
@@ -12,7 +17,7 @@ options before the expiration date.
 
 ### Equation:
 
-<img src="https://latex.codecogs.com/svg.image?\bg{black}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
+<img src="https://latex.codecogs.com/svg.image?\bg{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
 
 where:
 
@@ -64,7 +69,17 @@ before expiration. For US-style options binomial, trinomial, or the Bjerksund-St
 
 ### Volatility Skew
 
-The model makes assumption #5 because asset prices cannot be negative.
+The model makes assumption #5 because asset prices cannot be negative. Asset prices tend to have significant right
+skewness and some degree of kurtosis (fat tails), meaning that high-risk downward moves happen more often in the market
+than a normal distribution predicts. The assumption of lognormal underlying asset prices should show that implied
+volatilities are similar for each strike price according to the B-S model. Since the market crash of 1987, implied
+volatilities for at-the-money options have been lower than those further out of the money or far in the money. The
+reason being that the market is pricing in a greate likelihood of a high volatility move to the downside. This has led
+to the presence of the volatility skew. Mapping the implied volatilities for options with the same expiration date on a
+graph, the skew shape can be seen. Therefore, the Black-Scholes model is not efficient for calculating implied
+volatility.
+
+
 
 
 ### Drawbacks & Limitations
