@@ -42,17 +42,17 @@ N = A normal distribution
 
 ### Assumptions
 
-* no dividends are paid out during the life of the option
+1. no dividends are paid out during the life of the option
 
-* markets are random (market movements cannot be predicted)
+2. markets are random (market movements cannot be predicted)
 
-* there are no transaction costs in buying the option
+3. there are no transaction costs in buying the option
 
-* the risk-free rate and volatility of the underlying asset are known and constant
+4. the risk-free rate and volatility of the underlying asset are known and constant
 
-* the returns on the underlying asset are log-normally distributed
+5. the returns on the underlying asset are log-normally distributed
 
-* the option is european and can only be exercised at expiration
+6. the option is european and can only be exercised at expiration
 
 
 The original Black-Scholes model does not consider the effects of dividends paid during the life of the option, the
@@ -62,7 +62,25 @@ before expiration. For US-style options binomial, trinomial, or the Bjerksund-St
 
 ### Volatility Skew
 
+The model makes assumption #5 because asset prices cannot be negative.
+
+
 ### Drawbacks & Limitations
+
+* only used for European options
+
+* assumes dividends and risk-free rates are constant, although this may not be the case.
+
+* assumption of constant volatility over the option's life, is not realistic because volatility fluctuates with the
+level of supply and demand.
+
+* assumption of no transaction costs or taxes is unrealistic
+
+* assumption that risk-free interest rate is constant is unrealistic
+
+* short selling of securities with use of proceeds is permitted
+
+* there are no risk-less arbitrage opportunities can lead to real world deviations from the model
 
 # Sources
 
