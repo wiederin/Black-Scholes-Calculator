@@ -21,9 +21,9 @@ options before the expiration date.
 
 where:
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
+<img src="https://latex.codecogs.com/svg.image?\color{white}d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}d_{2}&space;=&space;d_{1}&space;-&space;\sigma&space;_{s}\sqrt{t}&space;&space;&space;">
+<img src="https://latex.codecogs.com/svg.image?\color{white}d_{2}&space;=&space;d_{1}&space;-&space;\sigma&space;_{s}\sqrt{t}&space;&space;&space;">
 
 C = call option price
 
