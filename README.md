@@ -17,7 +17,7 @@ options before the expiration date.
 
 ### Equation:
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
+<img src="https://latex.codecogs.com/svg.image?\color{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
 
 where:
 
