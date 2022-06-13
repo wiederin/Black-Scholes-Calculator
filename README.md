@@ -22,7 +22,7 @@ options before the expiration date.
 
 #### Put
 
-<img src="https://latex.codecogs.com/svg.image?P&space;=&space;N(-d_{2})Ke^{-rT}&space;-&space;N(-d_{1})S_{0}">
+<img src="https://latex.codecogs.com/svg.image?\color{white}P&space;=&space;N(-d_{2})Ke^{-rT}&space;-&space;N(-d_{1})S_{0}">
 
 where:
 
