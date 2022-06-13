@@ -15,9 +15,14 @@ options before the expiration date.
 
 ## Model in Mathematical Notation
 
-### Equation:
+### Equations:
 
+#### Call
 <img src="https://latex.codecogs.com/svg.image?\color{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
+
+#### Put
+
+<img src="https://latex.codecogs.com/svg.image?P&space;=&space;N(-d_{2})Ke^{-rT}&space;-&space;N(-d_{1})S_{0}">
 
 where:
 
