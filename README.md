@@ -15,15 +15,20 @@ options before the expiration date.
 
 ## Model in Mathematical Notation
 
-### Equation:
+### Equations:
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
+#### Call
+<img src="https://latex.codecogs.com/svg.image?\color{white}C&space;=&space;SN&space;(d_{1})&space;-&space;Ke^{-rt}N(d_{2})">
+
+#### Put
+
+<img src="https://latex.codecogs.com/svg.image?\color{white}P&space;=&space;N(-d_{2})Ke^{-rT}&space;-&space;N(-d_{1})S_{0}">
 
 where:
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
+<img src="https://latex.codecogs.com/svg.image?\color{white}d_{1}&space;=&space;\frac{ln_{S}^{K}&space;&plus;&space;(r&space;&plus;&space;\frac{\sigma&space;^{2}}{2}t)}{\sigma&space;_{s}\sqrt{t}}&space;">
 
-<img src="https://latex.codecogs.com/svg.image?\bg{white}d_{2}&space;=&space;d_{1}&space;-&space;\sigma&space;_{s}\sqrt{t}&space;&space;&space;">
+<img src="https://latex.codecogs.com/svg.image?\color{white}d_{2}&space;=&space;d_{1}&space;-&space;\sigma&space;_{s}\sqrt{t}&space;&space;&space;">
 
 C = call option price
 
